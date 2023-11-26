@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .column{
+            float: left;
+            width:33%;
+            padding: 5px;
+        }
+        .row::after{
+            content:"";
+            display:table;
+            clear:both;
+        }
+    </style>
+</head>
+<header>
+    <div class="container">
+        <a href="#" class="logo">Portfolio</a>
+        <nav>
+            <ul>
+                <li><a href="home.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body style="background-image: url(skillbg.jpg); color: aliceblue;image-resolution: 10px; background-size: cover;" >
+    <div class="container">
+        <h1><center>My Skills</center></h1>
+        <ul class="skills-list">
+            <div class="row">
+                <div class="column">
+                <h3>HTML</h3>
+                <img src="html.jpg" alt="html" width="250px" height="250px">
+              </div>
+            
+              <div class="column">
+                <h3>CSS</h3>
+                <img src="css.jpg" alt="css" width="250px" height="250px">
+                </div>
+            
+                <div class="column">
+                <h3>JAVA</h3>
+                <img src="java.jpg" alt="java" width="250px" height="250px">
+              </div>
+              </div>
+              <div class="row">
+                <div class="column">
+            
+                <h3>PYTHON</h3>
+                <img src="python.jpg" alt="python" width="250px" height="250px">
+                </div>
+            
+                <div class="column">
+                <h3>C</h3>
+                <img src="c.jpg" alt="C" width="250px" height="250px">
+                </div>
+            
+                <div class="column">
+                <h3>SQL</h3>
+                <img src="mysql.jpg" alt="sql" width="250px" height="250px">
+                </div>
+                </div>
+           
+
+        </ul>
+    </div>
+</section>
+</body>
+</html>
